@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "React Basics",
+    "difficulty": "Ușor",
+    "question": "Ce este React?",
+    "options": [
+      "Un framework pentru backend",
+      "O bibliotecă JavaScript pentru construirea interfețelor utilizator",
+      "Un limbaj de programare nou",
+      "Un sistem de baze de date"
+    ],
+    "correctAnswer": "O bibliotecă JavaScript pentru construirea interfețelor utilizator"
+  },
+  {
+    "id": 2,
+    "category": "React Basics",
+    "difficulty": "Ușor",
+    "question": "Ce comandă este folosită pentru a crea o aplicație React?",
+    "options": [
+      "npm init react-app",
+      "npx create-react-app",
+      "npm create-react-app",
+      "npx start-react-app"
+    ],
+    "correctAnswer": "npx create-react-app"
+  },
+  {
+    "id": 3,
+    "category": "Components",
+    "difficulty": "Mediu",
+    "question": "Cum se numește sintaxa asemănătoare HTML folosită în React?",
+    "options": ["HTMLX", "JSX", "ReactXML", "TemplateJS"],
+    "correctAnswer": "JSX"
+  },
+  {
+    "id": 4,
+    "category": "Components",
+    "difficulty": "Mediu",
+    "question": "Care este diferența dintre componenta de clasă și cea funcțională?",
+    "options": [
+      "Componentele de clasă sunt mai rapide",
+      "Componentele funcționale pot folosi hooks",
+      "Nu există nicio diferență",
+      "Componentele funcționale nu pot avea state"
+    ],
+    "correctAnswer": "Componentele funcționale pot folosi hooks"
+  },
+  {
+    "id": 5,
+    "category": "Hooks",
+    "difficulty": "Mediu",
+    "question": "Ce face hook-ul useEffect?",
+    "options": [
+      "Gestionează evenimentele de click",
+      "Permite efecte secundare în componente funcționale",
+      "Încarcă datele inițiale ale componentei",
+      "Toate cele de mai sus"
+    ],
+    "correctAnswer": "Permite efecte secundare în componente funcționale"
+  },
+  {
+    "id": 6,
+    "category": "Hooks",
+    "difficulty": "Greu",
+    "question": "Când ar trebui să folosiți useMemo?",
+    "options": [
+      "Pentru a optimiza calculele costisitoare",
+      "Pentru a gestiona formularul",
+      "Pentru a încărca date de la API",
+      "Pentru a gestiona starea globală"
+    ],
+    "correctAnswer": "Pentru a optimiza calculele costisitoare"
+  },
+  {
+    "id": 7,
+    "category": "State Management",
+    "difficulty": "Mediu",
+    "question": "Ce este Context API în React?",
+    "options": [
+      "Un mod de a gestiona starea globală",
+      "Un sistem de routing",
+      "Un tip de componentă",
+      "Un hook special"
+    ],
+    "correctAnswer": "Un mod de a gestiona starea globală"
+  },
+  {
+    "id": 8,
+    "category": "State Management",
+    "difficulty": "Greu",
+    "question": "Când ați alege Redux în loc de Context API?",
+    "options": [
+      "Pentru aplicații mici",
+      "Când aveți nevoie de un sistem de state management mai complex",
+      "Când nu doriți să scrieți mult cod",
+      "Niciodată, Context API este întotdeauna mai bun"
+    ],
+    "correctAnswer": "Când aveți nevoie de un sistem de state management mai complex"
+  },
+  {
+    "id": 9,
+    "category": "Performance",
+    "difficulty": "Greu",
+    "question": "Ce este React.memo?",
+    "options": [
+      "Un hook pentru memorare",
+      "O funcție care optimizează componentele funcționale",
+      "Un tip de componentă",
+      "Un sistem de caching"
+    ],
+    "correctAnswer": "O funcție care optimizează componentele funcționale"
+  },
+  {
+    "id": 10,
+    "category": "Routing",
+    "difficulty": "Mediu",
+    "question": "Ce bibliotecă este folosită cel mai des pentru routing în React?",
+    "options": ["ReactRoute", "ReactRouter", "ReactNavigation", "ReactLink"],
+    "correctAnswer": "ReactRouter"
+  }
+]
